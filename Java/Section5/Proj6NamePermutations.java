@@ -8,7 +8,9 @@ public class Proj6NamePermutations {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+
         StringBuilder[] stringBuilder = new StringBuilder[5];
+
         final int LENGTH_OF_STRING_BUILDER = stringBuilder.length;
 
         for (int i = 0;i<LENGTH_OF_STRING_BUILDER;i++)
